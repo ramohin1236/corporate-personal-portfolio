@@ -50,9 +50,19 @@ export const SkillsContainer = styled.div`
 
   display: grid;
   grid-template-columns: auto auto ;
+ 
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: auto  ;
+  }
+  @media (max-width: 500px) {
+    display: grid;
+    grid-template-columns: auto ;
+  }
 `
 
 export const Skill = styled.div`

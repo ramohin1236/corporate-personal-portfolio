@@ -5,8 +5,9 @@ import Nabbar from "./Components/Nabbar";
 import Hero from "./Components/Hero/Indexx";
 import Education from "./Components/Education/Education";
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Skill } from "./Components/Skills/SkillStyle";
 import MySkills from "./Components/Skills/MySkills";
+import Experience from "./Components/Experience/Experience";
+import Projects from "./Components/Projects/Projects";
 
 
 const Body = styled.div`
@@ -32,6 +33,8 @@ function App() {
         <Hero/>
         <Wrapper>
         <MySkills/>
+        <Experience/>
+        <Projects/>
          <Education/>
         </Wrapper>
      </Body>
