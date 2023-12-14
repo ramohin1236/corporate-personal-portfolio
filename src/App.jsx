@@ -3,9 +3,10 @@ import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from './utils/theme';
 import Nabbar from "./Components/Nabbar";
 import Hero from "./Components/Hero/Indexx";
-import Skills from "./Skills/Index";
 import Education from "./Components/Education/Education";
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Skill } from "./Components/Skills/SkillStyle";
+import MySkills from "./Components/Skills/MySkills";
 
 
 const Body = styled.div`
@@ -30,7 +31,7 @@ function App() {
      <Body>
         <Hero/>
         <Wrapper>
-        <Skills/>
+        <MySkills/>
          <Education/>
         </Wrapper>
      </Body>
