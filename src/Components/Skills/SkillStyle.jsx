@@ -47,8 +47,9 @@ export const Desc = styled.div`
 
 export const SkillsContainer = styled.div`
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+
+  display: grid;
+  grid-template-columns: auto auto ;
   margin-top: 30px;
   gap: 30px;
   justify-content: center;

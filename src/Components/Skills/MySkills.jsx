@@ -9,9 +9,9 @@ const MySkills = () => {
         <Title>Skills</Title>
         <Desc>Here are some of my skills on which I have been working on for the past 2 years.
         </Desc>
-        <SkillsContainer>
+        <SkillsContainer >
           {skills.map((skill,index) => (
-            <Skill key={index}>
+            <Skill key={index} >
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item,index) => (
