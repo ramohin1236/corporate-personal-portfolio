@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
+ 
     height: 80px;
     display: flex;
     align-items: center;
@@ -18,7 +19,7 @@ export const Nav = styled.div`
 `;
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   height: 60px;
   z-index: 1;
@@ -28,8 +29,8 @@ export const NavbarContainer = styled.div`
 `;
 
 export const Logo = styled(LinkR)`
-   background-color: ${({ theme }) => theme. white};
-    color: ${({ theme }) => theme. black};
+   
+    color: ${({ theme }) => theme.white};
     padding: 0 6px;
     display: flex;
     justify-content: start;
@@ -45,6 +46,7 @@ export const Span = styled.div`
     font-size: 18px;
 `;
 export const NavItems = styled.ul`
+
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,14 +61,14 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme. black};
+    color: ${({ theme }) => theme.white};
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     :hover {
-      color: ${({ theme }) => theme.primary};
-    }
+        color: ${({ theme }) => theme.primary};
+      }
 
     &.active {
       border-bottom: 2px solid ${({ theme }) => theme.primary};
@@ -82,7 +84,7 @@ export const GitHubButton = styled.button`
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.white};
   cursor: pointer;
   padding: 0 20px;
   font-weight: 500;
@@ -90,9 +92,9 @@ export const GitHubButton = styled.button`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
-      background: ${({ theme }) => theme.primary};
-      color: ${({ theme }) => theme.white};     
-    }
+      background-color: ${({ theme }) => theme.white};
+      color: ${({ theme }) => theme.black};     
+    };
     @media screen and (max-width: 768px) { 
     font-size: 14px;
     }
@@ -132,7 +134,7 @@ export const MobileMenu = styled.div`
     gap: 16px;
     position: absolute;
     top: 80px;
-    right: 0;
+
     width: 100%;
     padding: 12px 40px 24px 40px;
     background: ${({ theme }) => theme.card_light+99};
