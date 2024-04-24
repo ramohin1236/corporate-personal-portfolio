@@ -8,8 +8,8 @@ import { useTheme } from 'styled-components';
 
 const Nabbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
-    const [go, setGo]=React.useState("https://github.com/ramohin1236")
-    console.log(go)
+    // const [go, setGo]=React.useState("https://github.com/ramohin1236")
+   
     const theme = useTheme()
     return (
         <Nav>
@@ -32,9 +32,7 @@ const Nabbar = () => {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
                <ButtonContainer>
-                  <GitHubButton onClick={()=>{
-                    setGo(go)
-                  }}>Git-hub</GitHubButton>
+                 <button style={{padding: "20px",borderRadius: "20px" }}><a   style={{textDecoration: 'none',color: "black", fontWeight: 800, fontSize: "14px"}}href="https://github.com/ramohin1236">Git-hub</a></button>
                </ButtonContainer>
                {
           isOpen &&
