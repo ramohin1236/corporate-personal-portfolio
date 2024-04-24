@@ -8,7 +8,7 @@ export const Bio = {
       "I'm junior Frontend web developer. I have experience working with React as frontend and Express Js as backend. I am constantly trying to increase my knowledge & always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results..",
     github: "https://github.com/ramohin1236",
     resume:
-      "https://drive.google.com/file/d/1LiTzrkJqu4QvZCrbbKa8hsAcXLC7Hfs7/view?usp=sharing",
+      "https://drive.google.com/file/d/12NYY3U3d8RDzgrm2rHGJQyOEmNtH3nhT/view",
     linkedin: "https://www.linkedin.com/in/robiul-awal-mohin-682378253/",
     facebook: "https://www.facebook.com/ramohin.awal",
   };
@@ -21,6 +21,11 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "Next Js",
+          image:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aplyca.com%2Fen%2Fblog%2Fnextjs-the-future-of-the-web&psig=AOvVaw3uqGaI8Ch26YAYfMgeVdlF&ust=1714012908187000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjns5vp2YUDFQAAAAAdAAAAABAJ",
         },
         {
           name: "Redux",
@@ -326,20 +331,34 @@ export const Bio = {
     
     {
       id: 0,
-      title: "State Management",
-      date: "November 2023 - November 2023",
+      title: "Resturant Based Website",
+      date: "March 2024 - March 2024",
       description:
         "This is",
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Firebase"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://real-state-management-c0794.web.app/",
+      github: "https://github.com/ramohin1236/sodium-cafe",
+      webapp: "https://sodium-cafe-87d7c.web.app/",
       
     },
     {
-      id: 1,
+        id: 1,
+        title: "Chat Application",
+        date: "April 2024 - April 2024",
+        description:
+          "Preprocessed ",
+        image:
+          "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        tags: ["Next Js", "Mongoose", "Bycript"],
+        category: "web app",
+        github: "https://github.com/ramohin1236/chat-application",
+        webapp: "https://chat-application-nu-lilac.vercel.app/?fbclid=IwZXh0bgNhZW0CMTAAAR2UzvcNhncJ0Tz4b02LuRWnqyJHvCpsHiTDW338RR9-ExNe2sFs21JC8Sc_aem_AVcdYiTcpDyG6sUOUmbsds4-_DAogT6lpz_bwaGZ4IR8HL3Hnezgiqq4HnEUY0CiXI-RayMIMIkHB_2Ni2qQXbiz",
+       
+      },
+    {
+      id: 2,
       title: "Book blog ",
       date: "August 2023 - August 2023",
       description:
@@ -353,20 +372,7 @@ export const Bio = {
       github: "https://github.com/rishavchanda/Project-Management-App",
       webapp: "https://book-blog-9827e.web.app/",
     },
-    {
-      id: 2,
-      title: "Motors Details",
-      date: "Jan 2023 - Mar 2023",
-      description:
-        "Preprocessed ",
-      image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Firebase"],
-      category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://automotive-motors.web.app/",
-     
-    },
+    
    
   ];
   
